@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/roammap",
+  "version": "0.1.0",
+  "title": "Roammap",
+  "category": "widgets",
+  "icon": "admin-site-alt",
+  "description": "Open Street Map with Leaflet.js and a marker on the location of roam space",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "roammap",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

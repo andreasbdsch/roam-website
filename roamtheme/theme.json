@@ -1,0 +1,281 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "useRootPaddingAwareAlignments": true,
+        "border": {
+            "radius": true,
+            "color": true,
+            "style": true,
+            "width": true
+        },
+        "color": {
+            "custom": true,
+            "customDuotone": true,
+            "customGradient": true,
+            "duotone": [
+                {
+                    "colors": [ "#000", "#FFF" ],
+                    "slug": "black-and-white",
+                    "name": "Black and White"
+                }
+            ],
+            "gradients": [],
+            "link": true,
+            "palette": [],
+            "text": true,
+            "background": true,
+            "defaultGradients": true,
+            "defaultPalette": true
+        },
+        "custom": {},
+        "layout": {
+            "contentSize": "640px",
+            "wideSize": "800px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "blockGap": null,
+            "units": [ "px", "em", "rem", "vh", "vw" ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "lineHeight": true,
+            "dropCap": true,
+            "fluid": true,
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": true,
+            "textDecoration": true,
+            "textTransform": true,
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "Small",
+                    "fluid": {
+                        "min": "12px",
+                        "max": "16px"
+                    }
+                },
+                {
+                    "slug": "medium",
+                    "size": "1.25rem",
+                    "name": "Medium",
+                    "fluid": {
+                        "min": "16px",
+                        "max": "24px"
+                    }
+                },
+                {
+                    "slug": "large",
+                    "size": "1.5rem",
+                    "name": "Large",
+                    "fluid": {
+                        "min": "24px",
+                        "max": "32px"
+                    }
+                },
+                {
+                    "slug": "x-large",
+                    "size": "2rem",
+                    "name": "Extra Large",
+                    "fluid": {
+                        "min": "32px",
+                        "max": "48px"
+                    }
+                }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300italic.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300italic.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300italic.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300italic.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-300italic.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-regular.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-regular.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-regular.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-regular.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-regular.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-italic.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-italic.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-italic.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-italic.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-italic.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "500",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500italic.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500italic.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500italic.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500italic.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-500italic.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "600",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-600.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700.eot"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Cormorant Garamond",
+                            "fontStretch": "normal",
+                            "fontStyle": "italic",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700italic.woff",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700italic.woff2",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700italic.ttf",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700italic.svg",
+                                "file:./assets/font/cormorant-garamond-v9-latin-ext_latin-700italic.eot"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "\"Cormorant Garamond\", serif",
+                    "name": "Cormorant Garamond",
+                    "slug": "cormorant-garamond"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "\"Cormorant Garamond\", serif",
+            "fontSize": "var(--wp--preset--font-size--medium)"
+        },
+        "spacing": {
+            "padding": {
+                "top": "1rem",
+                "right": "1rem",
+                "bottom": "0",
+                "left": "1rem"
+            }
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "grey"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "black"
+                    }
+                },
+                ":active": {
+                    "color": {
+                        "text": "grey"
+                    }
+                }
+            }
+        }
+    },
+    "customTemplates": [
+        {
+            "name": "projects",
+            "title": "Projects"
+        }
+    ],
+    "templateParts": [
+        {
+            "name": "header",
+            "title": "Header",
+            "area": "header"
+        },
+        {
+            "name": "footer",
+            "title": "Footer",
+            "area": "footer"
+        }
+    ]
+}
