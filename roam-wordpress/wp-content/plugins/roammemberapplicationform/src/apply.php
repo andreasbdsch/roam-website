@@ -36,13 +36,7 @@ try {
     // Server settings for sending with SMTP
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    //$mail->Host = 'host237.checkdomain.de';
     $mail->Host = 'localhost';
-    //$mail->SMTPAuth = true;
-    //$mail->Username = 'application@roam-projects.eu';
-    //$mail->Password = '#Roam4pplicat1on!';
-    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    //$mail->Port = 587;
     $mail->Port = 1025;
 
     // Recipients
