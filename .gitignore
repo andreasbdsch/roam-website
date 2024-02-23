@@ -1,1 +1,13 @@
-roam-wordpress*
+roam-wordpress/*
+!roam-wordpress/wp-content
+
+roam-wordpress/wp-content/*
+!roam-wordpress/wp-content/plugins
+
+roam-wordpress/wp-content/plugins/*
+!roam-wordpress/wp-content/plugins/roammemberapplicationform
+
+roam-wordpress/wp-content/plugins/roammemberapplicationform/build
+roam-wordpress/wp-content/plugins/roammemberapplicationform/src/vendor
+
+backup/

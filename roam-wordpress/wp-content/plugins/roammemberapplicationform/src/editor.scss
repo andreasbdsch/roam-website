@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-roammemberapplicationform > * {
+	padding: .25em;
+}
+
+.editorFormBlock {
+	margin: .25em 0;
+	border: 2px solid black;
+}
+
+.editorFormBlockLabel {
+	background: black;
+	color: white;
+}
