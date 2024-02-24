@@ -227,6 +227,19 @@
                     "slug": "cormorant-garamond"
                 }
             ]
+        },
+        "blocks": {
+            "core/navigation": {
+                "appearanceTools": true,
+                "spacing": {
+                    "padding": true,
+                    "margin": true
+                },
+                "lightbox": {
+                    "allowEditing": true,
+                    "enabled": true
+                }
+            }
         }
     },
     "styles": {
